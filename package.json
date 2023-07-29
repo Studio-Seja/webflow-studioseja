@@ -1,0 +1,15 @@
+{
+  "name": "studioseja",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/main.js",
+  "scripts": {
+    "build": "./node_modules/.bin/esbuild ./app.js --bundle --outfile=./build/app.js --minify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "0.18.17"
+  }
+}
